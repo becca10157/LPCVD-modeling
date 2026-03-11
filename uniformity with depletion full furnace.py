@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 10 11:31:05 2026
-
-@author: rebec
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
@@ -185,4 +178,5 @@ else:
     print(f"{rate_m_per_s:.3e} m/s")
     print(f"{rate_A_per_min:.2f} Å/min")
     time_to_target = h_target / best_rate
+
     print(f"\nTime to grow {h_target*1e10:.0f} Å: {time_to_target/60:.2f} minutes")
