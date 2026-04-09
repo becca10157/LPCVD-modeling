@@ -51,7 +51,7 @@ $$k_i = A_i \cdot \exp\!\left(\frac{-E_{a,i}}{RT}\right)$$
 | k₁ | 7.076 × 10⁶ | 152,900 J/mol |
 | k₂ | 4.0 × 10²⁰ | 186,000 J/mol |
 
-Activation energies and Pre-exponential factor A2 were taken directly from Saxena et al, with A1 being back calculated based on reactor geometry
+Activation energies and Pre-exponential factor A2 were taken directly from Kaneko et al, with A1 being back calculated based on reactor geometry
 
 Function: “rate_constants(T)” — returns k₁ and k₂ at temperature T (K).
 
@@ -189,6 +189,7 @@ Console: For each configuration, the script prints:
 Plot: Scatter plot of total injector count vs. total flow rate, colored by combined non-uniformity. Valid designs (≤ 3% R/M with sufficient thickness) are circled in red.
 
 Literature Citations
+
 (1) Kaneko, K.; Ogino, M.; Shimizu, R.; Koshi, M.; Shimogaki, Y. Film Thickness Prediction of Poly-Silicon LPCVD Process with a Simplified Two-Step Surface Reaction Model. ECS Journal of Solid State Science and Technology 2013, 2 (9), N182–N186. https://doi.org/10.1149/2.024309jss.
 
 (2) Ekbundit, S.; Izzio, B. Characterization of Film Uniformity in LPCVD TEOS Vertical Furnace. 13th Annual IEEE/SEMI Advanced Semiconductor Manufacturing Conference. Advancing the Science and Technology of Semiconductor Manufacturing. ASMC 2002 (Cat. No.02CH37259) 2002, 38–42. https://doi.org/10.1109/asmc.2002.1001570.
